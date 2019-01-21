@@ -32,5 +32,7 @@ class Lada(Figura):
 if __name__ == "__main__":
     elso_lada = Lada(2, 5, ['balta', 'kard'], True)
     masodik_lada = Lada(3, 4, ['balta', 'páncél'], False)
+    harmadik_lada = Lada(4, 3, ['kard'], True)
     elso_lada.tartalom_kiiras()
     masodik_lada.tartalom_kiiras()
+    harmadik_lada.tartalom_kiiras()
